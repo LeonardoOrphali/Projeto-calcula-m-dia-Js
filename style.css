@@ -1,0 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0; 
+}
+div#item1{  
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+input#nota1, input#nota2{
+    border-radius: 5px;
+    border: solid 2px #55dd55;
+    width: 8vw;
+}
+input#btn{
+    background: #52b452;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 3vw;
+    height: 2vh;
+}
+input#btn:hover{
+    background: #469446;
+}
